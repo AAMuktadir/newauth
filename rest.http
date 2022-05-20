@@ -1,0 +1,7 @@
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+## Get all the users
+http://{{hostname}}:{{port}}/auth
